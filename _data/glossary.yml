@@ -10,6 +10,11 @@ glossary:
     word: Armadillo
     meaning: A proper strange looking beast
     contributor_id: data_dude
+ -
+    order: b
+    word: Butterbean
+    meaning: A legume that makes you fart
+    contributor_id: fart_dude
 
 categories:
 
