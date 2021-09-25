@@ -1,0 +1,21 @@
+---
+title: Notes
+date: 2020-05-15 10:19:00 Z
+categories:
+- home_notes
+tags:
+- lack_of_focus
+Actions:
+- Find an app that works for me.
+- Then set it up on all devices
+Something else: 'Not sure what this is
+
+'
+layout: basic_page_layout
+---
+
+Today I struggled to focus
+
+* A list
+
+* SSL’s
