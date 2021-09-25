@@ -8,9 +8,9 @@ title: Glossary
 
 All the A's
 
-     {% assign words = site.data.glossary.glossary | sort: "order" %}
+     {% assign words = site.data.glossary.glossary | sort: "word" %}
      {% for item in words %}
-     {% if item.order == "a" %}
+     {% if item.letter_id == "a" %}
    
      <STRONG>
           {{item.word}}            </br>
@@ -23,9 +23,9 @@ All the A's
 
 All the B's
 
-     {% assign words = site.data.glossary.glossary | sort: "order" %}
+     {% assign words = site.data.glossary.glossary | sort: "word" %}
      {% for item in words %}
-     {% if item.order == "b" %}
+     {% if item.letter_id == "b" %}
    
      <STRONG>
           {{item.word}}            </br>
@@ -37,4 +37,4 @@ All the B's
      {% endfor %}
 
 {% include include_letter_block.html letter_id="a" %}
-{% include include_letter_block.html letter_id="a" %}
+{% include include_letter_block.html letter_id="b" %}
