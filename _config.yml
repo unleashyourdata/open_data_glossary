@@ -65,7 +65,7 @@ baseurl: "https://unleashyourdata.github.io/open_data_glossary"
 #Live URL https://dibdobrob.github.io/traffordtrails
 # !! You don't need to change any of the configuration flags below !!
 
-hero_image: TT5MV2.png
+hero_image: d4e.png
 
 permalink: /:title/
 
