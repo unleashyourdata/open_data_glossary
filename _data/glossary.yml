@@ -1,17 +1,17 @@
 glossary:
 
 -
-    order: a
+    letter_id: a
     word: Aardvark
     meaning: A slow moving hard shelled animal
     contributor_id: data_dude
 -
-    order: a
+    letter_id: a
     word: Armadillo
     meaning: A proper strange looking beast
     contributor_id: data_dude
 -
-    order: b
+    letter_id: b
     word: Butterbean
     meaning: A legume that makes you fart
     contributor_id: fart_dude
