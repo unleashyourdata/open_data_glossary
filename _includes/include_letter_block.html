@@ -1,6 +1,6 @@
      {% assign words = site.data.glossary.glossary | sort: "word" %}
      {% for item in words %}
-     {% if item.order == include.letter_id %}
+     {% if item.letter_id == include.letter_id %}
    
      <STRONG>
           {{item.word}}            </br>
