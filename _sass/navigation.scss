@@ -1,4 +1,6 @@
+
 nav {
+
 	position: fixed;
 	width: 100%;
 	display: flex;
@@ -7,6 +9,7 @@ nav {
 	z-index: 999;
 	 
 	a {
+
 		display: inline-block;
 		text-decoration: none;
 		padding: 20px 15px;
@@ -15,6 +18,8 @@ nav {
 		letter-spacing: 1px;
 		font-size: .9em;
 
+
+
 		&.active {
 			color: #888;
 		}
@@ -22,5 +27,7 @@ nav {
 		&:hover {
 			color: #000;
 		}
+
 	}
+
 }

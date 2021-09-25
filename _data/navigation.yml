@@ -1,6 +1,6 @@
-- name: What?
+- name: Events
   link: /
-- name: How?
-  link: /event-participation/
-- name: When?
-  link: /event-schedule/
+- name: Results
+  link: /results/
+- name: News
+  link: /news/

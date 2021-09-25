@@ -1,0 +1,101 @@
+
+<style type="text/css">
+     .tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;border-style:solid;border-width:1px;margin:0px auto;}
+     .tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:0px;color:#333;
+       font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+     .tg th{background-color:#f38630;border-color:#aaa;border-style:solid;border-width:0px;color:#fff;
+       font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+     .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+     .tg .tg-9abe{border-color:inherit;font-size:16px;font-weight:bold;position:-webkit-sticky;position:sticky;text-align:left;top:-1px;
+       vertical-align:top;will-change:transform}
+     .tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+     </style>
+
+</br>
+<table class="tg">
+     <thead>
+       <tr>
+        <th class="tg-9abe">Position</th>
+         <th class="tg-9abe">Athlete</th>
+         <th class="tg-9abe">Best time</th>
+         <th class="tg-9abe">Runs</th>
+         <th class="tg-9abe">Club</th>
+         <th class="tg-9abe">Total Points</th>
+         <th class="tg-9abe">Waterside run</th>
+         <th class="tg-9abe">Early run</th>
+         <th class="tg-9abe">2 % run</th>
+         <th class="tg-9abe">250ft Ascent run</th>
+         <th class="tg-9abe">Selfie</th>
+         <th class="tg-9abe">Animal</th>
+         <th class="tg-9abe">Friend</th>
+         <th class="tg-9abe">Coffee</th>
+         <th class="tg-9abe">Mountain</th>
+         <th class="tg-9abe">Run Points</th>
+         <th class="tg-9abe">Time Points</th>
+         <th class="tg-9abe">Two in a day</th>
+       </tr>
+     </thead>
+
+     {% assign results_by_points = site.data.results.athlete_summary | sort: "points" | reverse %}
+     {% for item in results_by_points %}
+     {% if item.athlete_id == include.athlete_id %}
+
+     <tbody>
+       <tr>
+        <td class="tg-fymr">{{item.order}}</td>
+        <td class="tg-fymr">{{item.athlete}}</td>
+        <td class="tg-c3ow">{{item.best_time}}</td>
+        <td class="tg-c3ow">{{item.run_count}}</td>
+        <td class="tg-c3ow">{{item.club}}</td>
+        <td class="tg-c3ow"><strong>{{item.points}}</strong></td>
+        <td class="tg-c3ow">{{item.water}}</td>
+        <td class="tg-c3ow">{{item.early}}</td>
+        <td class="tg-c3ow">{{item.2percent}}</td>
+        <td class="tg-c3ow">{{item.250ascent}}</td>
+        <td class="tg-c3ow">{{item.selfie}}</td>
+        <td class="tg-c3ow">{{item.animal}}</td>
+        <td class="tg-c3ow">{{item.friend}}</td>
+        <td class="tg-c3ow">{{item.coffee}}</td>
+        <td class="tg-c3ow">{{item.mountain}}</td>
+        <td class="tg-c3ow">{{item.run_points}}</td>
+        <td class="tg-c3ow">{{item.time_points}}</td>
+        <td class="tg-c3ow">{{item.daily_double}}</td>
+       </tr>
+     </tbody>
+    
+     {% endif %}
+     {% endfor %}
+
+     </table>
+    </br>
+
+  </br>
+  <table class="tg">
+       <thead>
+         <tr>
+          <th class="tg-9abe">Athlete</th>
+          <th class="tg-9abe">Date</th>
+          <th class="tg-9abe">Duration</th>
+         </tr>
+       </thead>
+  
+       {% assign results_by_date = site.data.results.runs | sort: "date" | reverse %}
+       {% for run in results_by_date %}
+       {% if run.athlete_id == include.athlete_id %}
+  
+       <tbody>
+         <tr>
+          <td class="tg-fymr">{{run.athlete}}</td>
+          <td class="tg-fymr">{{run.date}}</td>
+          <td class="tg-fymr">{{run.duration}}</td>
+       </tbody>
+      
+       {% endif %}
+       {% endfor %}
+  
+       </table>
+
+      </br></br>
+      <strong><a href="https://www.traffordtrails.co.uk/league_results/">View full league table</a></strong> 
+  
+    </br>

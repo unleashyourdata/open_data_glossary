@@ -1,41 +1,37 @@
-    <!doctype html>
-    <html lang="en">
-    <head>
+<!doctype html>
+<html lang="en">
+<head>
 
-    {% include meta.html %}
-    
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-    <link rel="stylesheet" href="{{ site.url }}/css/style.css">
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open Sans' >
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway' >
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato' >
-    <link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/screen.css">
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon_symbol.png" />
-   
-    <style>
-        
-        body {
-            font-family: '{{ site.primaryfont }}'; 
-             } 
-    </style>
-    
-        
-    </head>
-    <body>
-        
-        
-        
-        
-    
-        {{ content }}
-    
-    <script id="dsq-count-scr" src="//robert-wadsworth.disqus.com/count.js" async></script>
-    </body>
-    {% include analytics.html %}
-    </html>
+{% include meta.html %}
+
+<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open Sans' >
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway' >
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato' >
+<link rel="stylesheet" media="screen" href="{{ site.baseurl }}/css/screen.css">
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon_symbol.png" />
+
+<style>
+
+    body {
+
+        font-family: '{{ site.primaryfont }}'; 
+
+         } 
+
+</style>
+</head>
+
+<body>
+
+    {{ content }}
 
 
+</body>
 
+{% include analytics.html %}
 
-  
+</html>
+

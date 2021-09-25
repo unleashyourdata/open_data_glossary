@@ -1,0 +1,19 @@
+{% for post in site.posts %} 
+{% if post.postref == include.arcticleblock_id %}
+
+<div class="col-6 menu">          
+<div class="article">
+
+<div class="speak-heading">
+
+{{ post.title }}
+
+</div>
+
+{{ post.content }}
+
+</div>
+</div>
+
+{% endif %}
+{% endfor %}
