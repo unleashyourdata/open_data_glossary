@@ -10,7 +10,7 @@ All the A's
 
      {% assign words = site.data.glossary.glossary | sort: "order" %}
      {% for item in words %}
-     {% if item.order == a %}
+     {% if item.order == "a" %}
    
      <STRONG>
           {{item.word}}            </br>
@@ -25,7 +25,7 @@ All the B's
 
      {% assign words = site.data.glossary.glossary | sort: "order" %}
      {% for item in words %}
-     {% if item.order == b %}
+     {% if item.order == "b" %}
    
      <STRONG>
           {{item.word}}            </br>
