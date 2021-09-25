@@ -43,7 +43,7 @@ background-color:  #fff;
 }
 
 section.title_bar {
- background-color: #ff9900;
+ background-color: #000000;
 }
 
 section.quick-nav {
@@ -82,16 +82,16 @@ div.article {
 }
 
 div.title_bar {
- color: white;
- text-align: center;
+ color: black;
+ text-align: left;
  text-decoration: none;
  display: inline-block;
  padding-top: 5px;
- padding-left: 15px;
+ padding-left: 20px;
  padding-bottom: 5px;
  line-height: 50px;
  width: 100%;
- font-size: x-large;
+ font-size: large;
 }
 
 a.left:link, a.left:visited, a.middle:link, a.middle:visited, a.right:link, a.right:visited {
