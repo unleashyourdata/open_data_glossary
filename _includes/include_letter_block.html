@@ -1,0 +1,12 @@
+     {% assign words = site.data.glossary.glossary | sort: "word" %}
+     {% for item in words %}
+     {% if item.order == include.letter_id %}
+   
+     <STRONG>
+          {{item.word}}            </br>
+     </STRONG>
+          {{item.meaning}}         </br>
+          {{item.contributor_id}}  </br></br>
+     
+     {% endif %}
+     {% endfor %}
