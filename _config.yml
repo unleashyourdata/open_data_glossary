@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Trafford Trails
+name: Unleash your data - open data glossary
 
 # Short bio or description (displayed in the header)
-description: Rural trails in urban settings.
+description: A glossary of simple terms, no fuss.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -22,7 +22,7 @@ collections:
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: traffordtrails@gmail.com
+  email: rob.wadsworth
   facebook: 
   flickr:
   strava: 
@@ -51,14 +51,14 @@ google_analytics: UA-89380340-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.traffordtrails.co.uk
+url: https://unleashyourdata.github.io/open_data_glossary/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-baseurl: "https://dibdobrob.github.io/traffordtrails"
+baseurl: "https://unleashyourdata.github.io/open_data_glossary/"
 
 
 #Beta URL https://edendigital.github.io/traffordtrails_beta/
