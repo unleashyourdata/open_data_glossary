@@ -6,23 +6,18 @@ title: Glossary
 
 ---
 
-<strong>Open Data Glossary</strong>
-</br></br>
-
-     {% assign results_by_points = site.data.results.athlete_summary | sort: "order" %}
-     {% for item in results_by_points %}
+     {% assign words = site.data.glossary.glossary | sort: "order" %}
+     {% for item in words %}
    
-     {{item.order}} </br>
-     <a href="https://www.traffordtrails.co.uk/participants/{{item.athlete_id}}/">{{item.athlete}} </br>
-     {{item.best_time}} </br>
-     {{item.run_count}} </br>
-     {{item.club}} </br>
-     {{item.points}} </br></br>
-    
+     <STRONG>
+          {{item.word}}            </br>
+     </STRONG>
+          {{item.meaning}}         </br>
+          {{item.contributor_id}}  </br></br>
+
      {% endfor %}
 
      
-
     </br></br>
     <strong>All runs</strong>
   </br></br>
