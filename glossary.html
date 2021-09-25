@@ -6,35 +6,8 @@ title: Glossary
 
 ---
 
-All the A's
-
-     {% assign words = site.data.glossary.glossary | sort: "word" %}
-     {% for item in words %}
-     {% if item.letter_id == "a" %}
-   
-     <STRONG>
-          {{item.word}}            </br>
-     </STRONG>
-          {{item.meaning}}         </br>
-          {{item.contributor_id}}  </br></br>
-     
-     {% endif %}
-     {% endfor %}
-
-All the B's
-
-     {% assign words = site.data.glossary.glossary | sort: "word" %}
-     {% for item in words %}
-     {% if item.letter_id == "b" %}
-   
-     <STRONG>
-          {{item.word}}            </br>
-     </STRONG>
-          {{item.meaning}}         </br>
-          {{item.contributor_id}}  </br></br>
-     
-     {% endif %}
-     {% endfor %}
-
 {% include include_letter_block.html letter_id="a" %}
 {% include include_letter_block.html letter_id="b" %}
+{% include include_letter_block.html letter_id="c" %}
+{% include include_letter_block.html letter_id="d" %}
+{% include include_letter_block.html letter_id="e" %}
