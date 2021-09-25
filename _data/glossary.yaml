@@ -1,0 +1,21 @@
+glossary:
+
+-
+    order: a
+    word: Aardvark
+    meaning: A slow moving hard shelled animal
+    contributor_id: @data_dude
+-
+    order: a
+    word: Armadillo
+    meaning: A proper strange looking beast
+    contributor_id: @data_dude
+
+categories:
+
+-
+    category: Data Words
+    category_description: everything you need to know about data words
+-
+    category: Animal Words
+    category_description: words that describe animalas
