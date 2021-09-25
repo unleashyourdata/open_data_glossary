@@ -9,37 +9,19 @@ title: Glossary
 <strong>Open Data Glossary</strong>
 </br></br>
 
-<table class="tg">
-     <thead>
-       <tr>
-        <th class="tg-9abe">Position</th> 
-        <th class="tg-9abe">Athlete</th>
-         <th class="tg-9abe">Best time</th>
-         <th class="tg-9abe">Runs</th>
-         <th class="tg-9abe">Club</th>
-         <th class="tg-9abe">Points</th>
-       </tr>
-     </thead>
-
      {% assign results_by_points = site.data.results.athlete_summary | sort: "order" %}
      {% for item in results_by_points %}
    
-     <tbody>
-       <tr>
-         <td class="tg-fymr">{{item.order}}</td>
-         <td class="tg-fymr">
-           <a href="https://www.traffordtrails.co.uk/participants/{{item.athlete_id}}/">{{item.athlete}}
-         </td>
-         <td class="tg-c3ow">{{item.best_time}}</td>
-         <td class="tg-c3ow">{{item.run_count}}</td>
-         <td class="tg-c3ow">{{item.club}}</td>
-         <td class="tg-c3ow">{{item.points}}</td>
-       </tr>
-     </tbody>
+     {{item.order}} </br>
+     <a href="https://www.traffordtrails.co.uk/participants/{{item.athlete_id}}/">{{item.athlete}} </br>
+     {{item.best_time}} </br>
+     {{item.run_count}} </br>
+     {{item.club}} </br>
+     {{item.points}} </br></br>
     
      {% endfor %}
 
-     </table>
+     
 
     </br></br>
     <strong>All runs</strong>
