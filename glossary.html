@@ -6,41 +6,32 @@ title: Glossary
 
 ---
 
+All the A's
+
      {% assign words = site.data.glossary.glossary | sort: "order" %}
      {% for item in words %}
+     {% if item.order == a %}
    
      <STRONG>
           {{item.word}}            </br>
      </STRONG>
           {{item.meaning}}         </br>
           {{item.contributor_id}}  </br></br>
-
+     
+     {% endif %}
      {% endfor %}
 
-     
-    </br></br>
-    <strong>All runs</strong>
-  </br></br>
+All the B's
 
-  <table class="tg">
-       <thead>
-         <tr>
-          <th class="tg-9abe">Athlete</th>
-          <th class="tg-9abe">Date</th>
-          <th class="tg-9abe">Duration</th>
-         </tr>
-       </thead>
-  
-       {% assign results_by_date = site.data.results.runs | sort: "duration" %}
-       {% for run in results_by_date %}
-      
-       <tbody>
-         <tr>
-          <td class="tg-fymr">{{run.athlete}}</td>
-          <td class="tg-fymr">{{run.date}}</td>
-          <td class="tg-fymr">{{run.duration}}</td>
-       </tbody>
-      
-       {% endfor %}
-  
-       </table>
+     {% assign words = site.data.glossary.glossary | sort: "order" %}
+     {% for item in words %}
+     {% if item.order == b %}
+   
+     <STRONG>
+          {{item.word}}            </br>
+     </STRONG>
+          {{item.meaning}}         </br>
+          {{item.contributor_id}}  </br></br>
+     
+     {% endif %}
+     {% endfor %}
