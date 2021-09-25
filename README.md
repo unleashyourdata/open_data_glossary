@@ -1,5 +1,4 @@
-> This is a work in progress (not yet live) site for Dragons Running Club Sale. Powered by Jekyll.
-
+> Open Data Glossary
 ## Credits
 
 - [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
