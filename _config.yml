@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Unleash your data - open data glossary
+name: Open Data Glossary
 
 # Short bio or description (displayed in the header)
 description: A glossary of simple terms, no fuss.
@@ -51,14 +51,14 @@ google_analytics: UA-89380340-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://unleashyourdata.github.io/open_data_glossary/
+url: https://unleashyourdata.github.io/open_data_glossary
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-baseurl: "https://unleashyourdata.github.io/open_data_glossary/"
+baseurl: "https://unleashyourdata.github.io/open_data_glossary"
 
 
 #Beta URL https://edendigital.github.io/traffordtrails_beta/
