@@ -6,6 +6,12 @@
 
 ## Site Map ##
 
+> Single Column Layout
+> > basic_page_layout
+> > > foundation_layout
+> > > 
+
+
 ## index.html ##
 
 - Defined by,page_layout.html
