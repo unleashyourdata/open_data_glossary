@@ -1,3 +1,9 @@
+     <STRONG>
+     {% include.letter_id %}
+     </STRONG>
+
+     <br><br>
+
      {% assign words = site.data.glossary.glossary | sort: "word" %}
      {% for item in words %}
      {% if item.letter_id == include.letter_id %}
