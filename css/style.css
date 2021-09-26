@@ -43,7 +43,8 @@ background-color:  #fff;
 }
 
 section.title_bar {
- background-color: #000000;
+ background-color: #ffffff;
+ color: #000000;
 }
 
 section.quick-nav {
@@ -78,7 +79,7 @@ div.article {
  padding-bottom: 5px;
  padding-left: 15px;
  padding-right: 15px;
- text-align: center;
+ text-align: left;
 }
 
 div.title_bar {
