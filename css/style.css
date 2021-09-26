@@ -92,6 +92,19 @@ div.title_bar {
  padding-bottom: 5px;
  line-height: 50px;
  width: 100%;
+ font-size: 20pt;
+}
+
+div.title_modern {
+ color: black;
+ text-align: left;
+ text-decoration: none;
+ display: inline-block;
+ padding-top: 5px;
+ padding-left: 20px;
+ padding-bottom: 5px;
+ line-height: 50px;
+ width: 100%;
  font-size: large;
 }
 
