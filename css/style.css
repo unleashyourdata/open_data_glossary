@@ -95,6 +95,19 @@ div.title_bar {
  font-size: large;
 }
 
+div.title_modern {
+ color: black;
+ text-align: left;
+ text-decoration: none;
+ display: inline-block;
+ padding-top: 5px;
+ padding-left: 20px;
+ padding-bottom: 5px;
+ line-height: 50px;
+ width: 100%;
+ font-size: large;
+}
+
 a.left:link, a.left:visited, a.middle:link, a.middle:visited, a.right:link, a.right:visited {
  color: black;
  text-align: center;
