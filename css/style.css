@@ -89,7 +89,7 @@ section.title_bar {
  padding-left: 20px;
  line-height: 50px;
  width: 100%;
- font-size: 20pt;
+ font-size: 7vw;
 }
 
 section.heading_bar {
@@ -98,12 +98,12 @@ section.heading_bar {
  text-align: left;
  text-decoration: none;
  display: inline-block;
- padding-top: 5px;
+ padding-top: 50px;
  padding-bottom: 5px;
  padding-left: 20px;
  line-height: 50px;
  width: 100%;
- font-size: 30pt;
+ font-size: 10vw;
 }
 
 
