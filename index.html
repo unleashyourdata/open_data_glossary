@@ -6,7 +6,7 @@ title: Glossary
 
 ---
 
-     {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'letter_id' %}
+     {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
    
      {% for group in letter_group %}
      <a href='index.html#{{group.name}}'>{{group.name}}</a>&nbsp;  
