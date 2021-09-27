@@ -14,6 +14,16 @@ title: Glossary
   
      {% endfor %}
 
+
+     {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' %}
+     {% for group in letter_group %}
+     {{group.name}}
+     {% for item in group.items %}
+     <p>{{item.word}}</p>
+     {% endfor %}
+     {% endfor %}
+     
+
 {% include include_letter_block.html letter_id="a" %}
 {% include include_letter_block.html letter_id="b" %}
 {% include include_letter_block.html letter_id="c" %}
