@@ -87,9 +87,9 @@ section.title_bar {
  padding-top: 5px;
  padding-bottom: 5px;
  padding-left: 20px;
- line-height: 50px;
+ line-height: 20px;
  width: 100%;
- font-size: 7vw;
+ font-size: 4vw;
 }
 
 section.heading_bar {
@@ -101,9 +101,9 @@ section.heading_bar {
  padding-top: 50px;
  padding-bottom: 5px;
  padding-left: 20px;
- line-height: 50px;
+ line-height: 20px;
  width: 100%;
- font-size: 10vw;
+ font-size: 6vw;
 }
 
 
