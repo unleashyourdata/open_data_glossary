@@ -6,9 +6,10 @@ title: Glossary
 
 ---
 
-     {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: "letter_id" %}
+     {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' %}
+     {% assign letters_sorted = letter_group | sort: "letter_id" %}
 
-     {% for group in letter_group %}
+     {% for group in letters_sorted %}
      <a href='index.html#{{group.name}}'>{{group.name}}</a>&nbsp;  
      {% endfor %}
 
