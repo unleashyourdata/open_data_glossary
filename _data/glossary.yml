@@ -15,6 +15,38 @@ glossary:
     word: Butterbean
     meaning: A legume that makes you fart
     contributor_id: fart_dude
+    
+-
+    letter_id: g
+    word: Aardvark
+    meaning: A slow moving hard shelled animal
+    contributor_id: data_dude
+-
+    letter_id: j
+    word: Armadillo
+    meaning: A proper strange looking beast
+    contributor_id: data_dude
+-
+    letter_id: f
+    word: Butterbean
+    meaning: A legume that makes you fart
+    contributor_id: fart_dude
+    -
+    letter_id: m
+    word: Aardvark
+    meaning: A slow moving hard shelled animal
+    contributor_id: data_dude
+-
+    letter_id: k
+    word: Armadillo
+    meaning: A proper strange looking beast
+    contributor_id: data_dude
+-
+    letter_id: l
+    word: Butterbean
+    meaning: A legume that makes you fart
+    contributor_id: fart_dude
+
 
 categories:
 
