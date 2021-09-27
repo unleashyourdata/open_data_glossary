@@ -6,18 +6,14 @@ title: Glossary
 
 ---
 
-     {% assign letters = site.data.glossary.glossary | sort: "letter_id" %}
-     
-     {% for item in letters %}
-   
-     <a href='index.html#{{item.letter_id}}'>{{item.letter_id}}</a>&nbsp;   
-  
+     {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' %}
+
+     {% for group in letter_group %}
+     <a href='index.html#{{group.name}}'>{{group.name}}</a>&nbsp;  
      {% endfor %}
 
-
-     {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' %}
      {% for group in letter_group %}
-     {{group.name}}
+     <h2>{{group.name}}</h2>
      {% for item in group.items %}
      <p>{{item.word}}</p>
      {% endfor %}
