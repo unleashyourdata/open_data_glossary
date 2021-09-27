@@ -13,15 +13,16 @@ title: Glossary
      {% endfor %}
 
      {% for group in letter_group %}
-     <h2>{{group.name}}</h2>
-     {% for item in group.items %}
-     <p>{{item.word}}</p>
-     {% endfor %}
-     {% endfor %}
      
+     <section id="{{group.name}}">
+     <h2>{{group.name}}</h2>
+     </section>
+     
+     {% for item in group.items %}
+     
+     <p>{{item.word}}</p>
+     <p>{{item.meaning}}</p>
+     <p>{{item.contributor_id}}</p>
 
-{% include include_letter_block.html letter_id="a" %}
-{% include include_letter_block.html letter_id="b" %}
-{% include include_letter_block.html letter_id="c" %}
-{% include include_letter_block.html letter_id="d" %}
-{% include include_letter_block.html letter_id="e" %}
+     {% endfor %}
+     {% endfor %}
