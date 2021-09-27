@@ -78,6 +78,21 @@ div.article {
  text-align: left;
 }
 
+
+section.heading_bar {
+ background-color: #ffffff;
+ color: deeppink;
+ text-align: left;
+ text-decoration: none;
+ display: inline-block;
+ padding-top: 50px;
+ padding-bottom: 1px;
+ padding-left: 20px;
+ width: 100%;
+ font-size: 6vw;
+}
+
+
 section.title_bar {
  background-color: #ffffff;
  color: #000000;
@@ -87,25 +102,9 @@ section.title_bar {
  padding-top: 5px;
  padding-bottom: 5px;
  padding-left: 20px;
- line-height: 20px;
  width: 100%;
  font-size: 4vw;
 }
-
-section.heading_bar {
- background-color: #ffffff;
- color: deeppink;
- text-align: left;
- text-decoration: none;
- display: inline-block;
- padding-top: 50px;
- padding-bottom: 5px;
- padding-left: 20px;
- line-height: 20px;
- width: 100%;
- font-size: 6vw;
-}
-
 
 
 a.left:link, a.left:visited, a.middle:link, a.middle:visited, a.right:link, a.right:visited {
