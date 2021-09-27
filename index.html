@@ -6,6 +6,15 @@ title: Glossary
 
 ---
 
+     {% assign letters = site.data.glossary.glossary | sort: "letter_id" %}
+     {% for item in letters %}
+   
+     <a href='index.html#a'>a</a>&nbsp;
+   
+     <a href='index.html#'{{item.letter_id}}'>{{item.letter_id}}</a>&nbsp;   
+  
+     {% endfor %}
+
 <a href='index.html#a'>a</a>&nbsp;
 <a href='index.html#b'>b</a>&nbsp;
 <a href='index.html#c'>c</a>&nbsp;
