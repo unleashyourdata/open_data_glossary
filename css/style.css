@@ -43,11 +43,6 @@ background-color:  #fff;
 
 }
 
-section.title_bar {
- background-color: #ffffff;
- color: #000000;
-}
-
 section.quick-nav {
  background-color:  #ffffff;
 }
@@ -78,36 +73,40 @@ div.content {
 div.article {
  padding-top: 5px;
  padding-bottom: 5px;
- padding-left: 15px;
- padding-right: 15px;
+ padding-left: 20px;
+ padding-right: 20px;
  text-align: left;
 }
 
-div.title_bar {
- color: black;
+section.title_bar {
+ background-color: #ffffff;
+ color: #000000;
  text-align: left;
  text-decoration: none;
  display: inline-block;
  padding-top: 5px;
- padding-left: 20px;
  padding-bottom: 5px;
+ padding-left: 20px;
  line-height: 50px;
  width: 100%;
  font-size: 20pt;
 }
 
-div.title_modern {
- color: black;
+section.heading_bar {
+ background-color: #ffffff;
+ color: deeppink;
  text-align: left;
  text-decoration: none;
  display: inline-block;
  padding-top: 5px;
- padding-left: 20px;
  padding-bottom: 5px;
+ padding-left: 20px;
  line-height: 50px;
  width: 100%;
- font-size: large;
+ font-size: 30pt;
 }
+
+
 
 a.left:link, a.left:visited, a.middle:link, a.middle:visited, a.right:link, a.right:visited {
  color: black;
@@ -202,7 +201,6 @@ color: #fff;
 
 h1 {
 font-size: 2.0em;
-color: deeppink;
 padding: 0;
 margin: 0;
 }
@@ -442,8 +440,6 @@ padding-bottom: 7px;
 font-size: 1.4em;
 color: #848482;
 }
-
-
 
 
 
