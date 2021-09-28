@@ -210,6 +210,12 @@ color: #000 !important;
 font-weight: 600 !important;
 }
 
+h3 { 
+font-size: 1.4em !important;
+color: deeppink; !important;
+font-weight: 600 !important;
+}
+
 h5 { 
   font-size: 1.0em !important;
   color: #000 !important;
