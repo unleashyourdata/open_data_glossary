@@ -20,8 +20,12 @@ title: Glossary
      
      {% for group in letter_group %}
      
+     <p text-align="right">
+       <a href='index.html#top'>Top of page</a>
+     </p>
+
      <section id="{{group.name}}">
-     <h2>{{group.name}}</h2> &Tab;&Tab;&Tab;&Tab;&ndash;<a href='index.html#top'>top of page</a>
+     <h2>{{group.name}}</h2>
      </section>
      
      {% for item in group.items %}
