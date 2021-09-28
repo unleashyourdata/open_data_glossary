@@ -5,13 +5,17 @@ hero_text: The A to Z of data
 title: Glossary
 
 ---
-
+ 
+     <br>
+     
      {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
    
      {% for group in letter_group %}
      <a href='index.html#{{group.name}}'>{{group.name}}</a>&nbsp;  
      {% endfor %}
 
+     <br>
+     
      {% for group in letter_group %}
      
      <section id="{{group.name}}">
@@ -20,7 +24,7 @@ title: Glossary
      
      {% for item in group.items %}
      
-     <p><strong>{{item.word}}</strong></p>
+     <h3>{{item.word}}</h3>
      <p>{{item.meaning}}</p>
      <p>{{item.contributor_id}}</p>
 
