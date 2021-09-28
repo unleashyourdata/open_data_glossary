@@ -10,9 +10,11 @@ title: Glossary
      
      {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
    
+     <section id="top">
      {% for group in letter_group %}
      <a href='index.html#{{group.name}}'>{{group.name}}</a>&nbsp;  
      {% endfor %}
+     </section>
 
      <br>
      
@@ -26,7 +28,7 @@ title: Glossary
      
      <h3>{{item.word}}</h3>
      <p>{{item.meaning}}</p>
-     <p>{{item.contributor_id}}</p>
+     <p>&Tab;&ndash;<i>{{item.contributor_id}}</i> (<a href='index.html#top'>top of page</a>)</p>
 
      {% endfor %}
      {% endfor %}
