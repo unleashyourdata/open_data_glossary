@@ -8,7 +8,7 @@ title: Glossary
  
      <br>
      
-     {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
+    Quick Links: {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
    
      <section id="top">
      {% for group in letter_group %}
@@ -16,7 +16,8 @@ title: Glossary
      {% endfor %}
      </section>
      <br>
-     Filters: <a href='index.html#top'>Modelling</a> | <a href='index.html#top'>Technology</a> 
+     
+    Filters: <a href='index.html#top'>Modelling</a> | <a href='index.html#top'>Technology</a> 
 
     <br>
      
