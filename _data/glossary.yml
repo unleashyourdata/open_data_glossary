@@ -1,594 +1,3 @@
-glossary:
-
--
-    letter_id: #
-    word: 1st Party Data
-    meaning: Information created within an organization or directly collected from consumers/audience.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: #
-    word: 2nd Party Data
-    meaning: Information procured from another organization who would consider it 1st Party Data.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: #
-    word: 3rd Party Data
-    meaning: Information procured from another organization who would consider it 2nd Party Data.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: a
-    word: Analytics
-    meaning: The discovery of patterns and trends gleaned from data.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: a
-    word: Artificial Intelligence (A.I.) Model
-    meaning: A type of Data Product that is a program that has been trained on a set of data to recognize certain types of patterns to solve business problems.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: a
-    word: Attribute
-    meaning: A single-value descriptor for a data element or data object.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: Modelling
--
-    letter_id: b
-    word: Business Data Application
-    meaning: A type of Data Product that is a software solution or set of programs driven by data to provide business functionality.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data
-    meaning: Data is the digital output of an enterprise - customer and sales records, documents, spreadsheets, invoices, contracts, log files, video & audio recordings, sensor data, operational data - everything. It can be stored in a variety of ways - databases, filesystems, cloud, tape... Data can be thought of as a product. It can be shared, bought and sold. Data can come from external sources - weather forecasts, demographics, stock market prices and so on.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: d
-    word: Dashboard
-    meaning: A type of Data Product that is a structured real-time interactive analytic tool.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data + Analytics (D+A)
-    meaning: A set of capabilities focused on translating raw data into insights within an organization.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: Modelling
--
-    letter_id: d
-    word: Data Article
-    meaning: A distinct unit of digitized information..
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Component
-    meaning: A piece of information containing numerical and text values, as well as metadata (schema).
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Database Tables, Rows & Columns
-    meaning: Enterprise data used for business intelligence is typically stored in a database - e.g. Oracle, MySQL etc. Databases are organized into Tables of data - like a spreadsheet with Rows and Columns (aka Fields).
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: p
-    word: Persistent Identifier
-    meaning: A long-lasting reference to a document, file, web page, or other object. Often referred to as PI or PID.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Catalog
-    meaning: A Data Catalog is a tool to help manage data across the enterprise - it does not store the data itself, only the metadata that describes it (though it may store a sample). The catalog manages the data at the dataset level.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Connector
-    meaning: In the context of a Data Catalog, a Connector is a means to extract metadata from a Data Source that describes that data it holds - so that this can then be discovered via the catalog. This would provide an automated means to populate a Data Catalog, though not all datasets can be cataloged in this way - for some it is a manual process.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: Modelling
--
-    letter_id: d
-    word: Data Dictionary
-    meaning: Not to be confused with a Data Catalog - a Data Dictionary is a simple lookup of data objects and schemas. It does not have the search & discovery capabilities of a Data Catalog. Typically a database modelling tool will use a Data Dictionary as a datastore and both would be associated with a specific database platform such as Oracle.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Element
-    meaning: A fundamental data structure defined for use.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: Modelling
--
-    letter_id: d
-    word: Data Entitlement
-    meaning: This refers to who may access the data and can be anything from basic access control - Private, Restricted etc - to per user granularity.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Fabric
-    meaning: An emerging approach to data architecture. A definition by Talend. is a single environment consisting of a unified architecture, and services or technologies running on that architecture, that helps organizations manage their data. The ultimate goal of data fabric is to maximize the value of your data and accelerate digital transformation.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Foundation
-    meaning: A type of Data Product that is a collection of digitized information that is available, consistent, trusted and structured for use in other Data Products.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: Modelling
--
-    letter_id: d
-    word: Data Gravity
-    meaning: Data begets more data - build a system around data and it generates more data (logs, analytics, reports etc), and attracts more functionality until it is too big to move. It is becoming the force acting against the traditional approach of employing Data Warehouses.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Hierarchy
-    meaning: A set of Data Articles organized one above the other in parent-child relationships (one above the other).
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Integration
-    meaning: This is the bringing together of separate datasets into a single unified view - e.g. merging data from online sales with a product catalog to give a detailed product view of everything sold. In simple database terms this can be a ‘join’ if two tables on some common key like ‘product id’. In more complex scenarios, Data Integration is the merging together of data from separate data sources, even sources of different types such as data from a database and data from a file.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Key
-    meaning: An attribute or a set of attributes that help to uniquely identify a tuple (or row) in a relation (or table). Keys are also used to establish relationships between the different tables and columns of a relational database. Individual values in a key are called key values
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Lake
-    meaning: Data Lakes are dumping grounds for raw data regardless of format and the data goes into them unprocessed so as to be made available for later use. When used the data may need to be processed to transform it into something useful for, say, analytics. Data Lakes are often simple storage systems. There can be many Data Lakes - indeed this is one of the challenges facing big enterprises - the proliferation of Data Lakes and Data Warehouses.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Lineage
-    meaning: Lineage is a means by which a user can determine the value and trustworthiness of data from the perspective of business impact, compliance, governance, collaboration, and quality. It records the life cycle that data has been through - where it originated from and what has been done to it. For example, raw sales data might come point of sale, which is then processed to extract only certain elements of it, which is combined with customer data from elsewhere to create a dataset. Lineage is tracked at the dataset level, but it can also be the individual data value level. A Data Catalog will record the lineage for a dataset as part of its metadata.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Locker
-    meaning: A separate copy of a system of record which is made to provide access to that data without adding load to the source system. In order to make this data available to the business it would be re-housed in a Data Locker, which itself is then discoverable/curated as part of the Data Catalog.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Mesh
-    meaning: "Data Mesh is seen as a third generation approach to data, beyond Lakes and Warehouses, though it can incorporate both. \n\nThe core principle is that data is organized by domain and treated as a product - the data is kept with those that created it and who have the domain knowledge that describes it. This is in contrast to a Data Lake which aims to put all data in one place owned by a central team.\n\nSo a domain might be an existing data silo, or it might be something new.\n\nTo make the data in these domains discoverable and usable, each domain implements one or more APIs to allow read access to the data.\n\nCritically, though, the data provided by these APIs is ‘well modelled’ - that is, the APIs do not supply raw data, but data that is [perhaps] simplified, pre-aggregated etc. according to the domain knowledge of its owners. The data is prepared for analysis by those that actually understand it.\n\nThis approach means that those wanting to leverage the data don’t need to know the detail at the granular level. So, what might be a fifty table sales database inside the domain, may be served as denormalized (flattened) data for analysis.\n\nAs an architectural approach it can be employed when it comes to leaving data in place - avoiding the movement of data. It would form part of an overall Data Fabric, which would also include, or work with, Data Virtualization."
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Model
-    meaning: An abstract design that organizes description, semantics and consistency constraints of data.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Object
-    meaning: The individual tables, files and reports that comprise a Data Asset.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Product Collection
-    meaning: A complimentary group of Data Products aimed at supporting a Business Objective or group of related Business Objectives.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Product
-    meaning: An integrated set of Data Assets structured to address Data Consumer needs.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: Modelling
--
-    letter_id: d
-    word: Data Science
-    meaning: The field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: Modelling
--
-    letter_id: g
-    word: Glossary
-    meaning: A documented set of commonly used words and their intended meaning within a given organizational context. Used within an organization to create common understanding and consensus. This document is a glossary and is intended to encourage consistent use of words in the context of data initiatives.
-    contributor_id: Co-op
-    Updated: 30-Oct-2021
-    TagOne: Modelling
--
-    letter_id: d
-    word: Data Source
-    meaning: The system where the data is held - e.g. application, database, filesystem.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Virtualization
-    meaning: "Data Virtualization brings separate datasets - even disparate datasets - together into a unified logical model without physically moving any data around.\n\nData remains in its source system and the Virtualization layer builds a [typically in memory] logical model of it.\n\nThat model can then be queried like a database - the virtualization layer composes and federates the relevant queries to each source system and brings the results back into the in-memory model.\nWhile the actual query retrieves data, it is not moved in the sense that an analytics warehouse requires data to be moved - in that latter case all data is replicated into the warehouse, whereas Virtualization only retrieves the data needed for the analytical task at hand."
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Warehouse
-    meaning: "A Data Warehouse stores well-modelled data, typically in the form of database tables.\n\nWell-modelled means that the data confirms to one or more business perspectives on the data - e.g. all sales by region. The models can range from simple to very complex.\n\nAs such Data Warehouses hold data for the purposes of Business Intelligence analytics, though the actual analysis may be done by separate tools like Tableau or Power BI.\n\nData can be loaded into the Data Warehouse directly from data sources or from data lakes. But because it must be well-modelled, it may require transformation as part of this process - ETL - Extract, Transform, Load.\n\nData Warehouses are typically a first generation approach which take a retrospective view of data and usually only include structured data."
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Dimensional Data
-    meaning: Information pertaining to something of interest to a business organized in a hierarchy & attributes.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: Modelling
--
-    letter_id: m
-    word: Measure
-    meaning: Numeric data elements describing Business Events and framed by Dimensional Data.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: Modelling
--
-    letter_id: e
-    word: Enterprise Data Source
-    meaning: A complimentary group of Data Products created by the D+A team to provide one source of truth for Measures & Attributes.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: e
-    word: Enterprise Analytics Source
-    meaning: A complimentary group of Data Products created by the D+A team to provide one source of truth for Metrics & KPIs.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: e
-    word: External Data
-    meaning: Information that is produced, managed, curated, owned and distributed by a second or third party.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: f
-    word: Fact
-    meaning: See Measure.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: f
-    word: Fractal Scaling
-    meaning: The process of creating similarly shaped small cross-functional teams at different levels of scale within an organisation stitched together as a whole to drive alignment, efficiency and continuous improvement.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: h
-    word: Hierarchy Attributes
-    meaning: A single-value descriptor for a data element or data object organized one above the other in parent-child relationships (one above the other). Hierarchy attributes should be designed to not change over a long period of time.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: i
-    word: Internal Data
-    meaning: Information that is produced, managed, curated,owned and distributed within an organisation.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: Modelling
--
-    letter_id: i
-    word: Inventory
-    meaning: A documented set of ‘things’, usually created to understand what an organisation possesses or does within a given domain. For example, process inventory, applications inventory or technology inventory. To understand where data originates from in an organisation it is essential to create an inventory of processes, applications and technologies, these artifacts precede artefacts such as data dictionaries and data catalogues.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: k
-    word: Knowledge Graph
-    meaning: "A Knowledge Graph is an extension of a graph structure which surfaces the connections between entities based on their underlying data.\n\nEntities can be anything for which data exists - people, organisations, skills, datasets, objects etc.\n\nIn the context of a Data Catalog, a Knowledge Graph would surface the connections between managed datasets based on the metadata that describes them - i.e. two datasets sharing a common data value (e.g. name of dataset owner) would be seen as connected.\n\nOutside of the Catalog, and as part of data analytics, a Knowledge Graph would be used to surface/discover relationships within/between datasets based on the actual data they contain.\n\nTypically a Knowledge Graph manifests as a visualization, but it can also be consumed as pure data itself.\n\nWe all use Knowledge Graphs every day - Google use them to model meaning and the relationship between entities in the real world."
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: k
-    word: Key Performance Indicators (KPIs)
-    meaning: A type of Data Element consists of a Metric with static Dimensional Data (filters / views) used to answer a specified Business Question.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: v
-    word: Vocabulary
-    meaning: A culturally recognised set of commonly used words and their meanings. A vocabulary can only be observed in practice, it is how people actually use words as opposed to a glossary (such as this document) which defines how an organisation intends words to be used.
-    contributor_id: Co-op
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: o
-    word: Operational Analytics
-    meaning: The category of business analytics that focuses on measuring the existing and real-time operations of the business. It uses data analysis and business intelligence to improve efficiency and streamline everyday operations in real-time
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: m
-    word: Metadata
-    meaning: Metadata is also data - but is data about data; it describes the ‘actual’ data - like what type the data is, where it is, who owns it, what it is useful for, and so on. Metadata is a critically important concept for making all data discoverable, understandable, trustworthy and ultimately useful.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: m
-    word: Metric
-    meaning: A data element created by the calculation of one or more Measures used to explore for answers to Business Questions.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: p
-    word: Partner Data & Analytics
-    meaning: A complimentary group of Data Products created by one external source.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: Modelling
--
-    letter_id: l
-    word: Logical Model
-    meaning: Logical Models describe conceptual things things in terms of the data that represents them. For example, Customer Details, Transaction Details, Product Details. Logical models also describe the common attributes of each logical entity, e.g., forename, surname, date of birth, gender. Logical models can be high level (customer details) or low level (customer address details, customer demographic details, customer marketing preferences)
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Asset
-    meaning: A high level abstract grouping of logical data entities or objects that holds some significance or importance to an organisation e.g., Employee Data or store transactions. It is common for a single Data Asset (logical) to be composed of multiple Data Sets (physical). E.g., ‘Customer Data’ as a Data Asset, may contain Data Sets originating from multiple applications, data warehouses or reports. E.g., Physical Data sets may include Marketing Opt outs, Sales Transactions, Email Interactions.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: Modelling
--
-    letter_id: r
-    word: Report
-    meaning: A type of Data Product that is a structured time-bound static analytic tool.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: s
-    word: Schema
-    meaning: "Where structured data is defined by a model, a schema is a description of that model in terms of data names, types and business rules.\n\nFor example, a database schema will describe the data model in terms of tables, the fields within those tables and the type of data they contain, as well as rules such as whether a value must be given or not.\n\nSchemas are not restricted to databases. They can be used to describe other systems such as Data Catalogs and Search Engines."
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: s
-    word: Structured Data
-    meaning: Structured data conforms to a model, organized to some business orientated pattern, that can be directly and easily accessed by a person or computer - e.g. the rows and columns in a spreadsheet, or a bank transaction statement. Structured data is typically used so that computers can easily process it and is therefore captured in separate fields using forms (paper and electronic).
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: s
-    word: System of Record
-    meaning: A system of record is a data management term for an information storage system that is the authoritative data source for a given data element or piece of information. E.g. a customer database, or sales database. For various reasons it is not uncommon to find systems of record are old and running on legacy technology platforms, but continue to work and are trusted.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: t
-    word: Transactional Data
-    meaning: Information resulting from Business Events for an organization including Dimenstional Data Keys and Fact Data.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: u
-    word: Unstructured Data
-    meaning: Unstructured data does not have a pre-defined model or is not organized in a pre-defined manner. Unstructured information is typically designed for humans to consume and commonly text-heavy, such as a report or news article, but it can also be formats such as images, video, audio etc.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: r
-    word: Reverse ETL
-    meaning: The process of copying data from a central data warehouse to operational systems of record.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: Modelling
--
-    letter_id: d
-    word: DataOps
-    meaning: An automated, process-oriented methodology, used by analytic and data teams, to improve the quality and reduce the cycle time of data analytics.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: Modelling
--
-    letter_id: g
-    word: Graph database
-    meaning: n computing, a graph database (GDB) is a database that uses graph structures for semantic queries with nodes, edges, and properties to represent and store data. Each node represents an entity (a person, place, thing, category or other piece of data), and each relationship represents how two nodes are associated. This general-purpose structure allows you to model all kinds of scenarios – from a system of roads, to a network of devices, to a population’s medical history or anything else defined by relationships.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: Modelling
--
-    letter_id: e
-    word: ELT
-    meaning: The prcess of extracting(E) data from a source system, loading (L) it into a datawarehouse and then transforming (T) it in situ.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: Modelling
--
-    letter_id: e
-    word: ETL
-    meaning: The prcess of extracting(E) data from a source system, transforming (T) it in transit and then loading (L) it into a datawarehouse.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: p
-    word: Product
-    meaning: Something that is created through a process that provides benefit to a market.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: e
-    word: Entity
-    meaning: Entity is an object within a Conceptual, Logical or Physical Data Model. The rectangular box. Conceptual entity, Logical entity, physical entity.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: c
-    word: Conceptual Model
-    meaning: High level and abstract data models, they describe relationships between things that exist and things that happen. They use a language that requires no understanding of data and they are not referencing data. For, example a customer, transaction, store or product. They are used to organise, scope and define business concepts.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: d
-    word: Domain
-    meaning: Domains are used to categorise and group conceptual entities, they are the highest level of data abstraction. It’s common for the majority of organisations to have the same standard domains, Person, Location, Asset, Product, Finance, Colleague & Document. It is also common for Enterprise Data Owners to be assigned at the domain level as this keeps the number of people requiring additional responsibilities to a minimum. Domains often reflect organisation structures or domains of control within an organisation.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: p
-    word: Physical Model
-    meaning: Describe an actual physical implementation e.g., tables, views, extracts. Physical models will constantly change with time whereas conceptual and logical models are only likely to change if the business itself fundamentally changes, e.g., stop selling products and starts selling services.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: Modelling
--
-    letter_id: d
-    word: Data Set (dataset)
-    meaning: A useful grouping of data within a physical model. For example, Home Insurance Customer Data or Motor Insurance Policy Data. Full physical models can become incredible big, 100’s of tables. Data sets help describe and present specific elements of a physical model in a more readable format. In some systems permissions may be applied around data sets, so that users can only access data that they need. Data Sets may be proximity based, i.e, groups of data that are physically located together OR logical, i.e., groups of data that share similar meaning, purpose or context.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: s
-    word: Semantic Model
-    meaning: A Semantic Model or Layer is an enterprise wide, user friendly construct within a physical data implementation. Likely made up of many data sets, it is intended to enable data users to use data with minimal assistant or subject matter expertise required. The dream being that any data analyst is only minutes away from answering any question they could possible conceive about the organisation. Often the value is expressed in terms of finding patterns and answers in disparate data sets that historically could not have been used in unison.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: 
--
-    letter_id: m
-    word: Master Data
-    meaning: A consistent and uniform set of identifiers and extended attributes that describe the core entities of an enterprise, for example Location Master Data being the single, consistent, accurate source of the truth for all information relating to locations.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: r
-    word: Reference Data
-    meaning: Sets of values that are referred to by systems, applications, data stores, processes, and reports. For example, valid values, code lists, status codes, state abbreviations, demographic fields, flags, product types, gender, chart of accounts, and product hierarchy.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: e
-    word: Event Data
-    meaning: Describes an event or transaction that takes place as an organization conducts its business. Examples include sales orders, invoices, purchase orders, shipping documents, credit card payments. IoT broadens this to measurements and observations from devices, e.g., room temp, proximity alert.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data Owner
-    meaning: Data Owners are senior stakeholders within your organisation who are accountable for the quality, meaning, protection and use of one or more data set. Whilst they may not be hands on, they ultimately own the governance of processes, frameworks and assignments of the people who maintain the integrity and value of data.
-    contributor_id: Kin+Carta
-    Updated: 30-Oct-2021
-    TagOne: Modelling
--
-    letter_id: d
-    word: Data Steward
-    meaning: Usually accountable to a Data Owner, the data steward is a role that involves hands on maintenenance and upkeep of data, this includes describing, classifying and cateloguing data. In some instances a data steward may also own actions related to data risk management and more technical data stewards may perform activities relating to quality profiling, trend analysis and dataops. 
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: a
-    word: Authentification
-    meaning: 'The act of proving an assertion, such as the identity of a computer system user. In contrast with identification, the act of indicating a person or thing''s identity, authentication is the process of verifying that identity.'
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: a
-    word: Authorization
-    meaning: Is the function of specifying access rights/privileges to resources, which is related to general information security and computer security, and to access control in particular.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: d
-    word: Data analysis
-    meaning: A process of inspecting, cleansing, transforming, and modelling data with the goal of discovering useful information, informing conclusions, and supporting decision-making.
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
--
-    letter_id: p
-    word: Personally identifiable information (PII)
-    meaning: Information that, when used alone or with other relevant data, can identify an individual. 
-    contributor_id: Kin+Carta
-    Updated: 30-Sep-2021
-    TagOne: 
-
 categories:
 
 -
@@ -599,3 +8,594 @@ categories:
     category: Data Technology
     tag: Technology
     category_description: Words commonly used when describing data technologies or solutions
+    
+glossary:
+
+-
+    letter_id: #
+    word: 1st Party Data
+    meaning: Information created within an organization or directly collected from consumers/audience.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: #
+    word: 2nd Party Data
+    meaning: Information procured from another organization who would consider it 1st Party Data.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: #
+    word: 3rd Party Data
+    meaning: Information procured from another organization who would consider it 2nd Party Data.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: a
+    word: Analytics
+    meaning: The discovery of patterns and trends gleaned from data.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: a
+    word: Artificial Intelligence (A.I.) Model
+    meaning: A type of Data Product that is a program that has been trained on a set of data to recognize certain types of patterns to solve business problems.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: a
+    word: Attribute
+    meaning: A single-value descriptor for a data element or data object.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: modelling
+-
+    letter_id: b
+    word: Business Data Application
+    meaning: A type of Data Product that is a software solution or set of programs driven by data to provide business functionality.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: technology
+-
+    letter_id: d
+    word: Data
+    meaning: Data is the digital output of an enterprise - customer and sales records, documents, spreadsheets, invoices, contracts, log files, video & audio recordings, sensor data, operational data - everything. It can be stored in a variety of ways - databases, filesystems, cloud, tape... Data can be thought of as a product. It can be shared, bought and sold. Data can come from external sources - weather forecasts, demographics, stock market prices and so on.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: d
+    word: Dashboard
+    meaning: A type of Data Product that is a structured real-time interactive analytic tool.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: technology
+-
+    letter_id: d
+    word: Data + Analytics (D+A)
+    meaning: A set of capabilities focused on translating raw data into insights within an organization.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: d
+    word: Data Article
+    meaning: A distinct unit of digitized information..
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Component
+    meaning: A piece of information containing numerical and text values, as well as metadata (schema).
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Database Tables, Rows & Columns
+    meaning: Enterprise data used for business intelligence is typically stored in a database - e.g. Oracle, MySQL etc. Databases are organized into Tables of data - like a spreadsheet with Rows and Columns (aka Fields).
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: technology
+-
+    letter_id: p
+    word: Persistent Identifier
+    meaning: A long-lasting reference to a document, file, web page, or other object. Often referred to as PI or PID.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Catalog
+    meaning: A Data Catalog is a tool to help manage data across the enterprise - it does not store the data itself, only the metadata that describes it (though it may store a sample). The catalog manages the data at the dataset level.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Connector
+    meaning: In the context of a Data Catalog, a Connector is a means to extract metadata from a Data Source that describes that data it holds - so that this can then be discovered via the catalog. This would provide an automated means to populate a Data Catalog, though not all datasets can be cataloged in this way - for some it is a manual process.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: d
+    word: Data Dictionary
+    meaning: Not to be confused with a Data Catalog - a Data Dictionary is a simple lookup of data objects and schemas. It does not have the search & discovery capabilities of a Data Catalog. Typically a database modelling tool will use a Data Dictionary as a datastore and both would be associated with a specific database platform such as Oracle.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: modelling
+-
+    letter_id: d
+    word: Data Element
+    meaning: A fundamental data structure defined for use.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: modelling
+-
+    letter_id: d
+    word: Data Entitlement
+    meaning: This refers to who may access the data and can be anything from basic access control - Private, Restricted etc - to per user granularity.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Fabric
+    meaning: An emerging approach to data architecture. A definition by Talend. is a single environment consisting of a unified architecture, and services or technologies running on that architecture, that helps organizations manage their data. The ultimate goal of data fabric is to maximize the value of your data and accelerate digital transformation.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: technology
+-
+    letter_id: d
+    word: Data Foundation
+    meaning: A type of Data Product that is a collection of digitized information that is available, consistent, trusted and structured for use in other Data Products.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: modelling
+-
+    letter_id: d
+    word: Data Gravity
+    meaning: Data begets more data - build a system around data and it generates more data (logs, analytics, reports etc), and attracts more functionality until it is too big to move. It is becoming the force acting against the traditional approach of employing Data Warehouses.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Hierarchy
+    meaning: A set of Data Articles organized one above the other in parent-child relationships (one above the other).
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Integration
+    meaning: This is the bringing together of separate datasets into a single unified view - e.g. merging data from online sales with a product catalog to give a detailed product view of everything sold. In simple database terms this can be a ‘join’ if two tables on some common key like ‘product id’. In more complex scenarios, Data Integration is the merging together of data from separate data sources, even sources of different types such as data from a database and data from a file.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: technology
+-
+    letter_id: d
+    word: Data Key
+    meaning: An attribute or a set of attributes that help to uniquely identify a tuple (or row) in a relation (or table). Keys are also used to establish relationships between the different tables and columns of a relational database. Individual values in a key are called key values
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Lake
+    meaning: Data Lakes are dumping grounds for raw data regardless of format and the data goes into them unprocessed so as to be made available for later use. When used the data may need to be processed to transform it into something useful for, say, analytics. Data Lakes are often simple storage systems. There can be many Data Lakes - indeed this is one of the challenges facing big enterprises - the proliferation of Data Lakes and Data Warehouses.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: technology
+-
+    letter_id: d
+    word: Data Lineage
+    meaning: Lineage is a means by which a user can determine the value and trustworthiness of data from the perspective of business impact, compliance, governance, collaboration, and quality. It records the life cycle that data has been through - where it originated from and what has been done to it. For example, raw sales data might come point of sale, which is then processed to extract only certain elements of it, which is combined with customer data from elsewhere to create a dataset. Lineage is tracked at the dataset level, but it can also be the individual data value level. A Data Catalog will record the lineage for a dataset as part of its metadata.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Locker
+    meaning: A separate copy of a system of record which is made to provide access to that data without adding load to the source system. In order to make this data available to the business it would be re-housed in a Data Locker, which itself is then discoverable/curated as part of the Data Catalog.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: technology
+-
+    letter_id: d
+    word: Data Mesh
+    meaning: "Data Mesh is seen as a third generation approach to data, beyond Lakes and Warehouses, though it can incorporate both. \n\nThe core principle is that data is organized by domain and treated as a product - the data is kept with those that created it and who have the domain knowledge that describes it. This is in contrast to a Data Lake which aims to put all data in one place owned by a central team.\n\nSo a domain might be an existing data silo, or it might be something new.\n\nTo make the data in these domains discoverable and usable, each domain implements one or more APIs to allow read access to the data.\n\nCritically, though, the data provided by these APIs is ‘well modelled’ - that is, the APIs do not supply raw data, but data that is [perhaps] simplified, pre-aggregated etc. according to the domain knowledge of its owners. The data is prepared for analysis by those that actually understand it.\n\nThis approach means that those wanting to leverage the data don’t need to know the detail at the granular level. So, what might be a fifty table sales database inside the domain, may be served as denormalized (flattened) data for analysis.\n\nAs an architectural approach it can be employed when it comes to leaving data in place - avoiding the movement of data. It would form part of an overall Data Fabric, which would also include, or work with, Data Virtualization."
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: technology
+-
+    letter_id: d
+    word: Data Model
+    meaning: An abstract design that organizes description, semantics and consistency constraints of data.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Object
+    meaning: The individual tables, files and reports that comprise a Data Asset.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Product Collection
+    meaning: A complimentary group of Data Products aimed at supporting a Business Objective or group of related Business Objectives.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Product
+    meaning: An integrated set of Data Assets structured to address Data Consumer needs.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: modelling
+-
+    letter_id: d
+    word: Data Science
+    meaning: The field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: g
+    word: Glossary
+    meaning: A documented set of commonly used words and their intended meaning within a given organizational context. Used within an organization to create common understanding and consensus. This document is a glossary and is intended to encourage consistent use of words in the context of data initiatives.
+    contributor_id: Co-op
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: d
+    word: Data Source
+    meaning: The system where the data is held - e.g. application, database, filesystem.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: modelling technology
+-
+    letter_id: d
+    word: Data Virtualization
+    meaning: "Data Virtualization brings separate datasets - even disparate datasets - together into a unified logical model without physically moving any data around.\n\nData remains in its source system and the Virtualization layer builds a [typically in memory] logical model of it.\n\nThat model can then be queried like a database - the virtualization layer composes and federates the relevant queries to each source system and brings the results back into the in-memory model.\nWhile the actual query retrieves data, it is not moved in the sense that an analytics warehouse requires data to be moved - in that latter case all data is replicated into the warehouse, whereas Virtualization only retrieves the data needed for the analytical task at hand."
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Warehouse
+    meaning: "A Data Warehouse stores well-modelled data, typically in the form of database tables.\n\nWell-modelled means that the data confirms to one or more business perspectives on the data - e.g. all sales by region. The models can range from simple to very complex.\n\nAs such Data Warehouses hold data for the purposes of Business Intelligence analytics, though the actual analysis may be done by separate tools like Tableau or Power BI.\n\nData can be loaded into the Data Warehouse directly from data sources or from data lakes. But because it must be well-modelled, it may require transformation as part of this process - ETL - Extract, Transform, Load.\n\nData Warehouses are typically a first generation approach which take a retrospective view of data and usually only include structured data."
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Dimensional Data
+    meaning: Information pertaining to something of interest to a business organized in a hierarchy & attributes.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: m
+    word: Measure
+    meaning: Numeric data elements describing Business Events and framed by Dimensional Data.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: modelling
+-
+    letter_id: e
+    word: Enterprise Data Source
+    meaning: A complimentary group of Data Products created by the D+A team to provide one source of truth for Measures & Attributes.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: 
+-
+    letter_id: e
+    word: Enterprise Analytics Source
+    meaning: A complimentary group of Data Products created by the D+A team to provide one source of truth for Metrics & KPIs.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: e
+    word: External Data
+    meaning: Information that is produced, managed, curated, owned and distributed by a second or third party.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: f
+    word: Fact
+    meaning: See Measure.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: f
+    word: Fractal Scaling
+    meaning: The process of creating similarly shaped small cross-functional teams at different levels of scale within an organisation stitched together as a whole to drive alignment, efficiency and continuous improvement.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: 
+-
+    letter_id: h
+    word: Hierarchy Attributes
+    meaning: A single-value descriptor for a data element or data object organized one above the other in parent-child relationships (one above the other). Hierarchy attributes should be designed to not change over a long period of time.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: i
+    word: Internal Data
+    meaning: Information that is produced, managed, curated,owned and distributed within an organisation.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: i
+    word: Inventory
+    meaning: A documented set of ‘things’, usually created to understand what an organisation possesses or does within a given domain. For example, process inventory, applications inventory or technology inventory. To understand where data originates from in an organisation it is essential to create an inventory of processes, applications and technologies, these artifacts precede artefacts such as data dictionaries and data catalogues.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: 
+-
+    letter_id: k
+    word: Knowledge Graph
+    meaning: "A Knowledge Graph is an extension of a graph structure which surfaces the connections between entities based on their underlying data.\n\nEntities can be anything for which data exists - people, organisations, skills, datasets, objects etc.\n\nIn the context of a Data Catalog, a Knowledge Graph would surface the connections between managed datasets based on the metadata that describes them - i.e. two datasets sharing a common data value (e.g. name of dataset owner) would be seen as connected.\n\nOutside of the Catalog, and as part of data analytics, a Knowledge Graph would be used to surface/discover relationships within/between datasets based on the actual data they contain.\n\nTypically a Knowledge Graph manifests as a visualization, but it can also be consumed as pure data itself.\n\nWe all use Knowledge Graphs every day - Google use them to model meaning and the relationship between entities in the real world."
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: k
+    word: Key Performance Indicators (KPIs)
+    meaning: A type of Data Element consists of a Metric with static Dimensional Data (filters / views) used to answer a specified Business Question.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: v
+    word: Vocabulary
+    meaning: A culturally recognised set of commonly used words and their meanings. A vocabulary can only be observed in practice, it is how people actually use words as opposed to a glossary (such as this document) which defines how an organisation intends words to be used.
+    contributor_id: Co-op
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: o
+    word: Operational Analytics
+    meaning: The category of business analytics that focuses on measuring the existing and real-time operations of the business. It uses data analysis and business intelligence to improve efficiency and streamline everyday operations in real-time
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: 
+-
+    letter_id: m
+    word: Metadata
+    meaning: Metadata is also data - but is data about data; it describes the ‘actual’ data - like what type the data is, where it is, who owns it, what it is useful for, and so on. Metadata is a critically important concept for making all data discoverable, understandable, trustworthy and ultimately useful.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: m
+    word: Metric
+    meaning: A data element created by the calculation of one or more Measures used to explore for answers to Business Questions.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: p
+    word: Partner Data & Analytics
+    meaning: A complimentary group of Data Products created by one external source.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: modelling
+-
+    letter_id: l
+    word: Logical Model
+    meaning: Logical Models describe conceptual things things in terms of the data that represents them. For example, Customer Details, Transaction Details, Product Details. Logical models also describe the common attributes of each logical entity, e.g., forename, surname, date of birth, gender. Logical models can be high level (customer details) or low level (customer address details, customer demographic details, customer marketing preferences)
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Asset
+    meaning: A high level abstract grouping of logical data entities or objects that holds some significance or importance to an organisation e.g., Employee Data or store transactions. It is common for a single Data Asset (logical) to be composed of multiple Data Sets (physical). E.g., ‘Customer Data’ as a Data Asset, may contain Data Sets originating from multiple applications, data warehouses or reports. E.g., Physical Data sets may include Marketing Opt outs, Sales Transactions, Email Interactions.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: modelling
+-
+    letter_id: r
+    word: Report
+    meaning: A type of Data Product that is a structured time-bound static analytic tool.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: 
+-
+    letter_id: s
+    word: Schema
+    meaning: "Where structured data is defined by a model, a schema is a description of that model in terms of data names, types and business rules.\n\nFor example, a database schema will describe the data model in terms of tables, the fields within those tables and the type of data they contain, as well as rules such as whether a value must be given or not.\n\nSchemas are not restricted to databases. They can be used to describe other systems such as Data Catalogs and Search Engines."
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: s
+    word: Structured Data
+    meaning: Structured data conforms to a model, organized to some business orientated pattern, that can be directly and easily accessed by a person or computer - e.g. the rows and columns in a spreadsheet, or a bank transaction statement. Structured data is typically used so that computers can easily process it and is therefore captured in separate fields using forms (paper and electronic).
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: s
+    word: System of Record
+    meaning: A system of record is a data management term for an information storage system that is the authoritative data source for a given data element or piece of information. E.g. a customer database, or sales database. For various reasons it is not uncommon to find systems of record are old and running on legacy technology platforms, but continue to work and are trusted.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: t
+    word: Transactional Data
+    meaning: Information resulting from Business Events for an organization including Dimenstional Data Keys and Fact Data.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: u
+    word: Unstructured Data
+    meaning: Unstructured data does not have a pre-defined model or is not organized in a pre-defined manner. Unstructured information is typically designed for humans to consume and commonly text-heavy, such as a report or news article, but it can also be formats such as images, video, audio etc.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: r
+    word: Reverse ETL
+    meaning: The process of copying data from a central data warehouse to operational systems of record.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: d
+    word: DataOps
+    meaning: An automated, process-oriented methodology, used by analytic and data teams, to improve the quality and reduce the cycle time of data analytics.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: g
+    word: Graph database
+    meaning: n computing, a graph database (GDB) is a database that uses graph structures for semantic queries with nodes, edges, and properties to represent and store data. Each node represents an entity (a person, place, thing, category or other piece of data), and each relationship represents how two nodes are associated. This general-purpose structure allows you to model all kinds of scenarios – from a system of roads, to a network of devices, to a population’s medical history or anything else defined by relationships.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: e
+    word: ELT
+    meaning: The prcess of extracting(E) data from a source system, loading (L) it into a datawarehouse and then transforming (T) it in situ.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: e
+    word: ETL
+    meaning: The prcess of extracting(E) data from a source system, transforming (T) it in transit and then loading (L) it into a datawarehouse.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: p
+    word: Product
+    meaning: Something that is created through a process that provides benefit to a market.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: 
+-
+    letter_id: e
+    word: Entity
+    meaning: Entity is an object within a Conceptual, Logical or Physical Data Model. The rectangular box. Conceptual entity, Logical entity, physical entity.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: c
+    word: Conceptual Model
+    meaning: High level and abstract data models, they describe relationships between things that exist and things that happen. They use a language that requires no understanding of data and they are not referencing data. For, example a customer, transaction, store or product. They are used to organise, scope and define business concepts.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: 
+-
+    letter_id: d
+    word: Domain
+    meaning: Domains are used to categorise and group conceptual entities, they are the highest level of data abstraction. It’s common for the majority of organisations to have the same standard domains, Person, Location, Asset, Product, Finance, Colleague & Document. It is also common for Enterprise Data Owners to be assigned at the domain level as this keeps the number of people requiring additional responsibilities to a minimum. Domains often reflect organisation structures or domains of control within an organisation.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: 
+-
+    letter_id: p
+    word: Physical Model
+    meaning: Describe an actual physical implementation e.g., tables, views, extracts. Physical models will constantly change with time whereas conceptual and logical models are only likely to change if the business itself fundamentally changes, e.g., stop selling products and starts selling services.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: d
+    word: Data Set (dataset)
+    meaning: A useful grouping of data within a physical model. For example, Home Insurance Customer Data or Motor Insurance Policy Data. Full physical models can become incredible big, 100’s of tables. Data sets help describe and present specific elements of a physical model in a more readable format. In some systems permissions may be applied around data sets, so that users can only access data that they need. Data Sets may be proximity based, i.e, groups of data that are physically located together OR logical, i.e., groups of data that share similar meaning, purpose or context.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: 
+-
+    letter_id: s
+    word: Semantic Model
+    meaning: A Semantic Model or Layer is an enterprise wide, user friendly construct within a physical data implementation. Likely made up of many data sets, it is intended to enable data users to use data with minimal assistant or subject matter expertise required. The dream being that any data analyst is only minutes away from answering any question they could possible conceive about the organisation. Often the value is expressed in terms of finding patterns and answers in disparate data sets that historically could not have been used in unison.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: 
+-
+    letter_id: m
+    word: Master Data
+    meaning: A consistent and uniform set of identifiers and extended attributes that describe the core entities of an enterprise, for example Location Master Data being the single, consistent, accurate source of the truth for all information relating to locations.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: r
+    word: Reference Data
+    meaning: Sets of values that are referred to by systems, applications, data stores, processes, and reports. For example, valid values, code lists, status codes, state abbreviations, demographic fields, flags, product types, gender, chart of accounts, and product hierarchy.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: e
+    word: Event Data
+    meaning: Describes an event or transaction that takes place as an organization conducts its business. Examples include sales orders, invoices, purchase orders, shipping documents, credit card payments. IoT broadens this to measurements and observations from devices, e.g., room temp, proximity alert.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data Owner
+    meaning: Data Owners are senior stakeholders within your organisation who are accountable for the quality, meaning, protection and use of one or more data set. Whilst they may not be hands on, they ultimately own the governance of processes, frameworks and assignments of the people who maintain the integrity and value of data.
+    contributor_id: Kin+Carta
+    last_updated: 30-Oct-2021
+    tags: modelling
+-
+    letter_id: d
+    word: Data Steward
+    meaning: Usually accountable to a Data Owner, the data steward is a role that involves hands on maintenenance and upkeep of data, this includes describing, classifying and cateloguing data. In some instances a data steward may also own actions related to data risk management and more technical data stewards may perform activities relating to quality profiling, trend analysis and dataops. 
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: a
+    word: Authentification
+    meaning: 'The act of proving an assertion, such as the identity of a computer system user. In contrast with identification, the act of indicating a person or thing''s identity, authentication is the process of verifying that identity.'
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: a
+    word: Authorization
+    meaning: Is the function of specifying access rights/privileges to resources, which is related to general information security and computer security, and to access control in particular.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: d
+    word: Data analysis
+    meaning: A process of inspecting, cleansing, transforming, and modelling data with the goal of discovering useful information, informing conclusions, and supporting decision-making.
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
+-
+    letter_id: p
+    word: Personally identifiable information (PII)
+    meaning: Information that, when used alone or with other relevant data, can identify an individual. 
+    contributor_id: Kin+Carta
+    last_updated: 30-Sep-2021
+    tags: 
