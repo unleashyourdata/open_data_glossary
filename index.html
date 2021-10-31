@@ -6,32 +6,8 @@ title: Glossary
 
 ---
  
-     <br>
-     
-    Quick Links: {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
-   
-     <section id="top">
-     {% for group in letter_group %}
-     <a href='index.html#{{group.name}}'>{{group.name}}</a>&nbsp;  
-     {% endfor %}
-     </section>
-     <br>
-     
-    Filters: <a href='index.html#top'>Modelling</a> | <a href='index.html#top'>Technology</a> 
+{% include include_quick_links.html %}
 
-    <br>
-     
-     {% for group in letter_group %}
+{% include include_filters.html %}
 
-     <section id="{{group.name}}">
-     <h2>{{group.name}}</h2> (<a href='index.html#top'>Top of page</a>)
-     </section>
-     
-     {% for item in group.items %}
-     
-     <h3>{{item.word}}</h3>
-     <p>{{item.meaning}}</p>
-     <p>&Tab;&ndash;<i>{{item.contributor_id}}</i></p>
-
-     {% endfor %}
-     {% endfor %}
+{% include include_glossary.html %}
