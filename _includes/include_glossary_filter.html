@@ -3,7 +3,7 @@
 {% assign filter_level = site.data.glossary.glossary | where_exp: "item", "item.tags contains include.tag" %}
 {% assign filter_group = filter_level | group_by: 'letter_id' | sort: 'name' %}
 
-</br><h3>{{include.tag}} words</h3> Test 14
+</br><h3>{{include.tag  | capitalize}} words</h3> Test 14
  
      {% for group in filter_group %}          
 
@@ -19,9 +19,8 @@
              {% for item in group.items %} 
                          
                          <h3>{{item.word}}</h3>
-                         <p>{{item.meaning}} Last updated: {{item.last_updated}}.</p>
-                         <p>&Tab;&ndash;<i>{{item.tags}}</i></p>
-
+                         <p>{{item.meaning}}</p>
+        
                {% endfor %}
           
      {% endfor %}
