@@ -1,38 +1,15 @@
-
-
 {% if include.tag == "all" %}
 
+    **
     {% assign filter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
     {% assign words = site.data.glossary.glossary %}
     {% include include_glossary.html %}
 
 {% else %}
 
-{% assign filter_level = site.data.glossary.glossary | where_exp: "item", "item.tags contains include.tag" %}
-{% assign filter_group = filter_level | group_by: 'letter_id' | sort: 'name' %}
-
-     </br><h3>{{include.tag  | capitalize}} words ({{ filter_level | size }} entries)</h3> 
-    {% include include_filters.html %}
-    {% include include_quick_links.html %}
- 
-     {% for group in filter_group %}          
-
-                <section id="{{group.name}}">  
-                <table width="100%">
-                <tr>
-                      <td style="text-align:left"> <h2>{{group.name}}</h2> </td>
-                      <td style="text-align:right"> <a href='index.html#top'>Top of page</a> </td>
-                </tr>
-                </table> 
-                </section>
-
-             {% for item in group.items %} 
-                         
-                         <h3>{{item.word}}</h3>
-                         <p>{{item.meaning}}</p>
-        
-               {% endfor %}
-          
-     {% endfor %}
+    **
+    {% assign words = site.data.glossary.glossary | where_exp: "item", "item.tags contains include.tag" %}
+    {% assign filter_group = words | group_by: 'letter_id' | sort: 'name' %}
+    {% include include_glossary.html %}
 
 {% endif %}
