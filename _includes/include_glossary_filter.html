@@ -3,7 +3,7 @@
 {% assign filter_level = site.data.glossary.glossary | where: "tags", include.tag %}
 {% assign filter_group = filter_level | group_by: 'letter_id' | sort: 'name' %}
 
-</br><h3>{{include.tag}} words</h3>
+</br><h3>{{include.tag}} words</h3> Test 12
  
      {% for group in filter_group %}          
 
