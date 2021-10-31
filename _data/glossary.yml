@@ -1,10 +1,6 @@
 categories:
 
 -
-    category: All
-    tag: all
-    category_description: A collection of all data words
--
     category: Data Modelling Terms
     tag: modelling
     category_description: Words commonly used when modelling data
