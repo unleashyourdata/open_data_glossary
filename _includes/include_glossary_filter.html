@@ -5,7 +5,7 @@
     {% assign filter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
     {% assign words = site.data.glossary.glossary %}
   
-    {{ words | size }} no of works a different way aagain
+    {{ words | size }} no of works a different way aagain2
  
     </br><h3>{{include.tag  | capitalize}} words</h3> 
     {% include include_filters.html %}
