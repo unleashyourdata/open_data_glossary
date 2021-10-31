@@ -1,6 +1,6 @@
  <br> 
 
-{% assign filter_group = site.data.glossary.glossary | where: "tags", "modelling" | group_by: 'letter_id' | sort: 'name' %}
+{% assign filter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name'| where: "tags", "modelling" %}
 
 <!-- {% assign  = filter_level | group_by: 'letter_id' | sort: 'name' %} -->
 <!-- WORKING CODE {% assign filter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %} -->
