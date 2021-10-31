@@ -1,12 +1,12 @@
-</br><h3>{{include.tag  | capitalize}} words</h3>
-{% include include_filters.html %}
+
 
 {% if include.tag == "all" %}
 
     {% assign filter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
  
+    </br><h3>{{include.tag  | capitalize}} words</h3> {{ filter_group.size }}
+    {% include include_filters.html %}
     {% include include_quick_links.html %}
-
 
          {% for group in filter_group %}          
 
@@ -33,7 +33,9 @@
 {% assign filter_level = site.data.glossary.glossary | where_exp: "item", "item.tags contains include.tag" %}
 {% assign filter_group = filter_level | group_by: 'letter_id' | sort: 'name' %}
 
-{% include include_quick_links.html %}
+    </br><h3>{{include.tag  | capitalize}} words</h3> {{ filter_group.size }}
+    {% include include_filters.html %}
+    {% include include_quick_links.html %}
  
      {% for group in filter_group %}          
 
