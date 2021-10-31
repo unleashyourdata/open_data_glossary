@@ -1,8 +1,7 @@
  <br>
      <section id="top">
      <strong>Quick Links:</strong>
-     {% assign letter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
-     {% for group in letter_group %}
+     {% for group in filter_group %}
      <a href='index.html#{{group.name}}'>{{group.name}}</a>&nbsp;  
      {% endfor %}
      </section>
