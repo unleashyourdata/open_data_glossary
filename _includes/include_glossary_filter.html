@@ -1,4 +1,4 @@
- <br> 
+<br> 
 
 {% assign filter_level = site.data.glossary.glossary | where: "tags", "modelling" %}
 {% assign filter_group = filter_level | group_by: 'letter_id' | sort: 'name' %}
@@ -7,9 +7,11 @@
 <!--  {% assign kitchen_products = products | where: "type", "kitchen" %} -->
 <!-- | where_exp:"item","item.tags contains 'modelling'" -->
 
-Modelling words 6
+Modelling words 5
  
-     {% for group in filter_group %}       
+     {% for group in filter_group %}
+ 
+<!--                {% if item.tags contains include.tag %}     -->           
 
                 <section id="{{group.name}}">  
                 <table width="100%">
@@ -20,11 +22,15 @@ Modelling words 6
                 </table> 
                 </section>
 
+<!--               {% endif %}.    -->
+
              {% for item in group.items %} 
                          
+<!--                      {% if item.tags contains include.tag %}        -->
                          <h3>{{item.word}}</h3>
                          <p>{{item.meaning}}</p>
                          <p>&Tab;&ndash;<i>{{item.contributor_id}}</i></p>
+ <!--                {% endif %}                 -->
 
                {% endfor %}
           
