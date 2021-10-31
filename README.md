@@ -6,9 +6,9 @@
 
 ## Layout Dependencies ##
 
->  foundation_layout
-> >  basic_page_layout
-> > >  single_column_layout
+> foundation_layout
+>> basic_page_layout
+>>> single_column_layout
 
 ## index.html ##
 
