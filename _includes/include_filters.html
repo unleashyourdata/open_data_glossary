@@ -1,11 +1,21 @@
 <strong> Filters:</strong> <a href='{{ site.baseurl }}'>All</a> | 
 
-{% assign tags = site.data.glossary.categories %}
+{% assign categories = site.data.glossary.categories %}
 
-{% for tag in tags.items %} 
+{% for item in categories %} 
 
-<a href='{{ site.baseurl }}/index_filter_'{{tag.tag}}>{{tag.tag}}</a> | 
+<a href='{{ site.baseurl }}/index_filter_'{{item.tag}}>{{item.tag}}</a> | 
 
-{{tag.tag}}
+{{item.tag}}
 
 {% endfor %}
+
+
+
+
+
+    
+     <strong>Filters:</strong>
+     {% for item in categories %}
+     <a href='index.html#{{group.name}}'>{{item.tag}}</a>&nbsp;  
+     {% endfor %}
