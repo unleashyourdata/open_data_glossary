@@ -1,6 +1,8 @@
  <br> 
-     {% for group in letter_group %}
-          {% if item.tags contains include.tag %}
+
+{% assign filter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
+
+     {% for group in filter_group %}
 
                 <section id="{{group.name}}">  
                 <table width="100%">
@@ -12,11 +14,13 @@
                 </section>
 
                {% for item in group.items %}
-
+                         
+                         {% if item.tags contains include.tag %}
                          <h3>{{item.word}}</h3>
                          <p>{{item.meaning}}</p>
                          <p>&Tab;&ndash;<i>{{item.contributor_id}}</i></p>
+                         {% endif %}
 
                {% endfor %}
-          {% endif %}
+          
      {% endfor %}
