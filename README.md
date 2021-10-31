@@ -14,9 +14,9 @@
 
 > Laoyout: single_column_layout
 > Includes: 
->> include_quick_links
->> include_filters
->> include_glossary
+> > include_quick_links
+> > include_filters
+> > include_glossary
 
 ## single_column_layout ##
 
