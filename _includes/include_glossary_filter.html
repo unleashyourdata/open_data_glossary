@@ -1,13 +1,13 @@
  <br> 
 
-{% assign filter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name'| where: "tags", "modelling" %}
+{% assign filter_level = site.data.glossary.glossary | where: "tags", "modelling" %}
+{% assign filter_group = filter_level | group_by: 'letter_id' | sort: 'name' %}
 
-<!-- {% assign  = filter_level | group_by: 'letter_id' | sort: 'name' %} -->
-<!-- WORKING CODE {% assign filter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %} -->
+<!--WORKING CODE {% assign filter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %} -->
 <!--  {% assign kitchen_products = products | where: "type", "kitchen" %} -->
 <!-- | where_exp:"item","item.tags contains 'modelling'" -->
 
-Modelling words 4
+Modelling words 5
  
      {% for group in filter_group %}
  
