@@ -1,4 +1,8 @@
-<strong> Filters:</strong>  
-<a href='{{ site.baseurl }}'>All</a> | 
-<a href='{{ site.baseurl }}/index_filter_modelling/'>Modelling</a> | 
-<a href='{{ site.baseurl }}/index_filter_technology/'>Technology</a> 
+<strong> Filters:</strong> <a href='{{ site.baseurl }}'>All</a> | 
+
+{% assign categories = site.data.glossary.categories %}
+{% for item in categories.items %} 
+
+<a href='{{ site.baseurl }}/index_filter_'{{ item.tag }}>{{ item.tag }}</a> | 
+
+{% endfor %}
