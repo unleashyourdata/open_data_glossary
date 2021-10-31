@@ -18,11 +18,9 @@
 
              {% for item in group.items %} 
                          
-
                          <h3>{{item.word}}</h3>
-                         <p>{{item.meaning}}</p>
-                         <p>&Tab;&ndash;<i>{{item.contributor_id}}</i></p>
-
+                         <p>{{item.meaning}} Last updated: {{item.last_updated}}.</p>
+                         <p>&Tab;&ndash;<i>{{item.tags}}</i></p>
 
                {% endfor %}
           
