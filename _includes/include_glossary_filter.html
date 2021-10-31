@@ -1,0 +1,24 @@
+ <br>
+     
+     {% for group in letter_group %}
+
+          <section id="{{group.name}}">  
+          <table width="100%">
+          <tr>
+                <td style="text-align:left"> <h2>{{group.name}}</h2> </td>
+                <td style="text-align:right"> <a href='index.html#top'>Top of page</a> </td>
+          </tr>
+          </table> 
+          </section>
+     
+     {% for item in group.items %}
+
+     {% if item.tag contains include.tag %}
+     
+        <h3>{{item.word}}</h3>
+        <p>{{item.meaning}}</p>
+        <p>&Tab;&ndash;<i>{{item.contributor_id}}</i></p>
+
+     {% endif %}
+     {% endfor %}
+     {% endfor %}
