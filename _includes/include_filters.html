@@ -4,18 +4,6 @@
 
 {% for item in categories %} 
 
-<a href='{{ site.baseurl }}/index_filter_'{{item.tag}}>{{item.tag}}</a> | 
-
-{{item.tag}}
+<a href='{{ site.baseurl }}/index_filter_{{item.tag}}'>{{item.tag}}</a> | 
 
 {% endfor %}
-
-
-
-
-
-    
-     <strong>Filters:</strong>
-     {% for item in categories %}
-     <a href='index.html#{{group.name}}'>{{item.tag}}</a>&nbsp;  
-     {% endfor %}
