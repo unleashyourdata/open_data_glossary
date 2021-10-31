@@ -6,6 +6,7 @@
     {% assign words = filter_group.items %}
 
     {{words.size}} no. of words
+    {{ words | size }} no of works a different way
  
     </br><h3>{{include.tag  | capitalize}} words</h3> 
     {% include include_filters.html %}
