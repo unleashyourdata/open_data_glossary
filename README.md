@@ -4,35 +4,31 @@
 
 - [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
 
-## Site Map ##
+## Layout Dependencies ##
 
-> Single Column Layout
-> > basic_page_layout
-> > > foundation_layout
-> > > 
+>  foundation_layout
+> >  basic_page_layout
+> > >  single_column_layout
 
 ## index.html ##
 
-> Defined by,page_layout.html
+> Laoyout: single_column_layout
 > Includes: 
 >> include_quick_links
 >> include_filters
 >> include_glossary
 
-## site_layout.html ##
+## single_column_layout ##
 
-> Defined by, default_layout.html
-> Includes, navigation_include.html, relative-src.html, heading_include.html
+> Includes: 
+>> xxxx
 
-## default_layout.html ##
+## basic_page_layout ##
+
+> Includes: 
+>> xxxx
+
+## foundation_layout ##
 
 > Includes, meta.html, analytics.html
 > References, style.css, screen.css, w3.css
-
-## _posts ##
-
-> Defined by post_layout.html
-
-## post_layout.html ##
-
-> Defined by default_layout.html
