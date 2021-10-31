@@ -3,11 +3,9 @@
 {% assign filter_level = site.data.glossary.glossary | where: "tags", "modelling" %}
 {% assign filter_group = filter_level | group_by: 'letter_id' | sort: 'name' %}
 
-Modelling words 7
+Modelling words 8
  
-     {% for group in filter_group %}
- 
-<!--                {% if item.tags contains include.tag %}     -->           
+     {% for group in filter_group %}          
 
                 <section id="{{group.name}}">  
                 <table width="100%">
@@ -17,8 +15,6 @@ Modelling words 7
                 </tr>
                 </table> 
                 </section>
-
-<!--               {% endif %}.    -->
 
              {% for item in group.items %} 
                          
