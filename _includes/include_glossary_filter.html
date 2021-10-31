@@ -7,11 +7,9 @@
 <!--  {% assign kitchen_products = products | where: "type", "kitchen" %} -->
 <!-- | where_exp:"item","item.tags contains 'modelling'" -->
 
-Modelling words 5
+Modelling words 6
  
-     {% for group in filter_group %}
- 
-<!--                {% if item.tags contains include.tag %}     -->           
+     {% for group in filter_group %}       
 
                 <section id="{{group.name}}">  
                 <table width="100%">
@@ -22,15 +20,11 @@ Modelling words 5
                 </table> 
                 </section>
 
-<!--               {% endif %}.    -->
-
              {% for item in group.items %} 
                          
-<!--                      {% if item.tags contains include.tag %}        -->
                          <h3>{{item.word}}</h3>
                          <p>{{item.meaning}}</p>
                          <p>&Tab;&ndash;<i>{{item.contributor_id}}</i></p>
- <!--                {% endif %}                 -->
 
                {% endfor %}
           
