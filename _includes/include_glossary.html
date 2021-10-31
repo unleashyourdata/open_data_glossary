@@ -1,0 +1,16 @@
+ <br>
+     
+     {% for group in letter_group %}
+
+        <section id="{{group.name}}">
+            <h2>{{group.name}}</h2> (<a href='index.html#top'>Top of page</a>)
+        </section>
+     
+     {% for item in group.items %}
+     
+        <h3>{{item.word}}</h3>
+        <p>{{item.meaning}}</p>
+        <p>&Tab;&ndash;<i>{{item.contributor_id}}</i></p>
+
+     {% endfor %}
+     {% endfor %}
