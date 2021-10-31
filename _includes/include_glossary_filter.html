@@ -1,7 +1,7 @@
  <br> 
 
-{% assign filter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' %}
-
+{% assign filter_group = site.data.glossary.glossary | group_by: 'letter_id' | sort: 'name' | where_exp:"item","item.tags contains 'modelling'" %}
+ 
      {% for group in filter_group %}
 
                 <section id="{{group.name}}">  
