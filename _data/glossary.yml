@@ -17,14 +17,14 @@ glossary:
     meaning: Information created within an organization or directly collected from consumers/audience.
     contributor_id: Kin+Carta
     last_updated: 30-Sep-2021
-    tags: 
+    tags: modelling technology
 -
     letter_id: #
     word: 2nd Party Data
     meaning: Information procured from another organization who would consider it 1st Party Data.
     contributor_id: Kin+Carta
     last_updated: 30-Sep-2021
-    tags: 
+    tags: technology modelling
 -
     letter_id: #
     word: 3rd Party Data
